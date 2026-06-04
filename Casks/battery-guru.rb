@@ -2,8 +2,7 @@ cask "battery-guru" do
   version "2.0.0"
   sha256 "559fa3a276f2ab8204b20b10258989e8fff2992182a4b917d3efdc7793fc7e92"
 
-  url "https://macdaddy.io/downloads/BatteryGuru.zip",
-      verified: "macdaddy.io/"
+  url "https://macdaddy.io/downloads/BatteryGuru-#{version}.zip"
   name "Battery Guru"
   desc "Menu bar battery monitor with live power draw, charge, and health stats"
   homepage "https://macdaddy.io/mac-battery-guru/"
